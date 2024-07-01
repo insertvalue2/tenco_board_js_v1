@@ -68,6 +68,7 @@ button {
     color: white; /* 글자색 설정 */
     cursor: pointer; /* 커서 모양 설정 */
     margin-bottom: 100px; /* 하단 여백 설정 */
+    margin-top: 10px;
 }
 
 /* 추후 추가 예정  */

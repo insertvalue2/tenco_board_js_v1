@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <!-- 반응형 웹을 위해 뷰포트 설정 -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>회원가입</title>
+<title>회원가입 by 자바스크립트</title>
 <link rel="stylesheet" href="../css/write.css">
 <link rel="stylesheet" href="../css/styles.css">
 </head>
@@ -26,14 +26,16 @@
 
 		<!-- 회원 가입 폼 제목 -->
 		<div class="title-box">
-			<h1>회원 가입</h1>
+			<h1>회원 가입(자바스크립트)</h1>
 		</div>
 		<!-- 회원가입 폼 테이블 (아이디, 닉네임, 비밀번호, 비밀번호 확인, 중복 확인 버튼) -->
 		<table>
 			<tr>
 				<th>아이디</th>
-				<td class="tb-username"><input type="text" class="inputs" placeholder="아이디를 입력하세요">
-					<button type="button">중복확인</button></td>
+				<td class="tb-username">
+				<input type="text" class="inputs" placeholder="아이디를 입력하세요" value='tenco'>
+					<button type="button" id="checkIdBtn" class="">중복확인</button>
+				</td>
 			</tr>
 			<tr>
 				<th>닉네임</th>
@@ -51,7 +53,7 @@
 
 		<!-- 회원가입 버튼 -->
 		<div class="btn-area">
-			<button type="button" class="btn">회원가입</button>
+			<button type="button" id="signUpBtn" class="btn">회원가입</button>
 		</div>
 
 		<!-- 푸터 섹션 -->
@@ -63,7 +65,7 @@
 	<!-- js 파일을 body의 맨 밑에 두는 이유
          HTML 요소가 모두 로드된 후에 스크립트를 실행하기 위해.
          이는 스크립트가 DOM 요소를 찾을 수 있도록 보장하고, 페이지 로드 속도를 향상시킴. -->
-	<script src="../js/signup.js"></script>
+	<script src="../js/signup2.js"></script>
 
 </body>
 </html>
